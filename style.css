@@ -1,0 +1,190 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-color: aliceblue;
+    color: black;
+}
+
+header {
+    background-color: midnightblue;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+header h1 {
+    font-size: 42px;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+header p {
+    font-size: 18px;
+    margin: 8px;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: darkslateblue;
+    text-align: center;
+    padding: 18px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: skyblue;
+    color: midnightblue;
+    border-radius: 8px;
+}
+
+section {
+    background-color: white;
+    margin: 25px;
+    padding: 35px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+}
+
+h2 {
+    color: darkslateblue;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+h3 {
+    color: steelblue;
+    margin: 15px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin: 10px;
+}
+
+.profile {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid skyblue;
+    margin: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: darkslateblue;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.btn:hover {
+    background-color: skyblue;
+    color: midnightblue;
+}
+
+.box {
+    background-color: aliceblue;
+    padding: 22px;
+    margin: 18px auto;
+    width: 80%;
+    border-left: 5px solid darkslateblue;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.card {
+    display: inline-block;
+    vertical-align: top;
+    background-color: aliceblue;
+    width: 28%;
+    min-height: 160px;
+    padding: 20px;
+    margin: 12px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    background-color: lightblue;
+    transform: translateY(-7px);
+    box-shadow: 0 5px 12px rgba(0,0,0,0.12);
+}
+
+form {
+    background-color: aliceblue;
+    width: 60%;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin: 12px 0 6px;
+    font-weight: bold;
+    color: darkslateblue;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 15px;
+    border: 1px solid lightskyblue;
+    border-radius: 7px;
+    background-color: white;
+    font-size: 15px;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border: 2px solid darkslateblue;
+    background-color: ghostwhite;
+}
+
+input[type="submit"] {
+    background-color: darkslateblue;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background-color: skyblue;
+    color: midnightblue;
+}
+
+footer {
+    background-color: midnightblue;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer h3 {
+    color: white;
+}
+
